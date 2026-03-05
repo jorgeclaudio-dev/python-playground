@@ -1,0 +1,6 @@
+cliente = str(input('Qual seu nome: '))
+idade = int(input('Qual sua idade: '))
+valor = float(input('Qual o valor da causa: R$ '))
+print(f'Cliente: {cliente}')
+print(f'Idade: {idade} anos')
+print(f'Valor da causa: R$ {valor:.2f} reais')

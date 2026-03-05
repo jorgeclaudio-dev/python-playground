@@ -1,0 +1,8 @@
+nome = str(input('Digite seu nome: '))
+idade = int(input('Sua idade: '))
+altura = float(input('Qual sua altura em metros: '))
+print(f'Nome: {nome}')
+print(f'Idade: {idade} anos')
+print(f'Altura: {altura:.2f} metros')
+print(f'Tipo da idade: {type(idade)}')
+print(f'Tipo da altura: {type(altura)}')
